@@ -1,0 +1,10 @@
+global-css: 
+  version: VERSION
+  css:
+    theme:
+      css/elements.css: {}
+      css/layout.css: {}
+      css/print.css: { media: print }
+      # tell Drupal to use this last stylesheet if page being printed only
+      # these stylesheets load on every page
+
