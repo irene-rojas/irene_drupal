@@ -3,3 +3,12 @@ type: theme
 description: 'Test theme'
 core_version_requirement: ^8 || ^9
 base theme: classy
+
+regions:
+  header: Header
+  content: Content
+  sidebar_first: Sidebar First
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom
+
