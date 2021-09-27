@@ -8,7 +8,7 @@ global-css:
       # tell Drupal to use this last stylesheet if page being printed only
       # these stylesheets load on every page
     
-
+# font
 pacifico: 
   license: 
     name: SIL Open Font License 1.1
