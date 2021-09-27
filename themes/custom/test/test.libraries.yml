@@ -1,4 +1,4 @@
-global-css: 
+global-css:
   version: VERSION
   css:
     theme:
@@ -9,8 +9,8 @@ global-css:
       # these stylesheets load on every page
     
 # font
-pacifico: 
-  license: 
+pacifico:
+  license:
     name: SIL Open Font License 1.1
     url: http://scripts.sil.org/cma/scripts/page.php?site_id=nrsi&id=OFL
   css:

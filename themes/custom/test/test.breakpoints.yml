@@ -5,7 +5,7 @@ test.mobile:
   multipliers:
     - 1x
 
-test.narrow: 
+test.narrow:
   label: narrow
   mediaQuery: 'all and (min-width: 560px) and (max-width: 860px)'
   weight: 1
