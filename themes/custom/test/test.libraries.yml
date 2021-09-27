@@ -7,4 +7,14 @@ global-css:
       css/print.css: { media: print }
       # tell Drupal to use this last stylesheet if page being printed only
       # these stylesheets load on every page
+    
 
+pacifico: 
+  license: 
+    name: SIL Open Font License 1.1
+    url: http://scripts.sil.org/cma/scripts/page.php?site_id=nrsi&id=OFL
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Pacifico: { type: external }
+      # external asset we're bringing into the theme
+      css/styles.css: {}

@@ -6,6 +6,7 @@ base theme: classy
 
 regions:
   header: Header
+  primary_menu: Primary Menu
   content: Content
   sidebar_first: Sidebar First
   footer: Footer
@@ -14,3 +15,4 @@ regions:
 
 libraries:
   - test/global-css
+  # - test/pacifico
