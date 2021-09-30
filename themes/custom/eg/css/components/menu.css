@@ -1,19 +1,19 @@
-
 /*
 Main Menu
 */
 
-.banner{
+.banner {
   padding: 0px;
 }
 
-.block ul{
+.block ul {
   width: 65%;
 }
-.block ul li{
+
+.block ul li {
   padding: 0px;
- 
 }
+
 .menu {
 		float: right;
 		border-bottom: 2px solid #000;
@@ -38,9 +38,11 @@ ul.menu a.is-active{
   float: left;
   position: relative;
 }
+
 .menu li.active_menu_item > a {
   color:#90A860; 
-  }
+}
+
 .menu a {
   float: left;
   padding: 40px 20px 30px;
