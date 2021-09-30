@@ -21,3 +21,4 @@ regions:
   footer: Footer
   page_top: Page top
   page_bottom: Page bottom
+  # if you add at least one custom region, you must specify all the regions, even standard ones
