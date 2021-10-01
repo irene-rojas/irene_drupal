@@ -12,6 +12,7 @@ regions:
   footer: Footer
   page_top: Page top
   page_bottom: Page bottom
+  # last 2 aren't visible but are required
 
 libraries:
   - test/global-css
