@@ -2,4 +2,13 @@ name: Irene USWDS
 type: theme
 description: 'Irene theme'
 core_version_requirement: ^8 || ^9
-base theme: classy
+base theme: uswds_base
+
+regions:
+  header: Header
+  primary_menu: Primary Menu
+  highlighted: Highlighted
+  content: Content
+  primary_footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom
