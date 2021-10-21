@@ -1,5 +1,5 @@
-name: Irene USWDS
+name: Irene
 type: theme
 description: 'Irene theme'
 core_version_requirement: ^8 || ^9
-base theme: uswds_base
+base theme: classy
