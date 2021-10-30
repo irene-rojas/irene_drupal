@@ -51,14 +51,9 @@
 
 <div class="usa-overlay"></div>
 
+{# start header #}
 {% block header %}
   <header class="{{ header_classes }}" id="header" role="banner">
-
-  {# {% if page.header_top %}
-    <div class="usa-banner-inner">
-      {{ page.header_top }}
-    </div>
-  {% endif %} #}
 
   {% if header_basic %}
   <div class="usa-nav-container">
@@ -94,7 +89,9 @@
 
 </header>
 {% endblock %}
+{# end header #}
 
+{# start main #}
 {% block main %}
   <main class="main-content usa-layout-docs usa-section {{ main_classes }}" role="main"
         id="main-content">
@@ -103,86 +100,41 @@
     <div class="grid-container">
 
       {% if page.breadcrumb or page.highlighted %}
-        {% block breadcrumb %}
-          <div class="grid-row">
-            {{ page.breadcrumb }}
-          </div>
-        {% endblock %}
-
         {% block highlighted %}
           <div class="">
             {{ page.highlighted }}
           </div>
         {% endblock %}
-
       {% endif %}
 
-      <div class="grid-row grid-gap">
-        {% if page.sidebar_first %}
-          {% block sidebar_first %}
-            <div
-              class="usa-layout-docs__sidenav desktop:grid-col-3 layout-sidebar-first">
-              {{ page.sidebar_first }}
-            </div>
-          {% endblock %}
-        {% endif %}
-
-        {% block content %}
-          <div class="usa-layout-docs__main desktop:grid-col-{% if page.sidebar_first or page.sidebar_second %}9{% else %}fill{% endif %}">
-            {{ page.content }}
-          </div>{# /.layout-content #}
-        {% endblock %}
-
-        {% if page.sidebar_second %}
-          {% block sidebar_second %}
-            <div
-              class="usa-layout-docs__sidenav desktop:grid-col-3 layout-sidebar-second">
-              {{ page.sidebar_second }}
-            </div>
-            {% endblock %}
-        {% endif %}
-      </div>
+      {% if page.front %}
+        {# {% xxx } is a condition #}
+        <div class="front" class="content">
+          {{ page.front }}
+        </div>
+      {% endif %}
     </div>
   </main>
 {% endblock %}
+{# end main #}
 
+{# start footer #}
 {% block footer %}
   <footer class="{{ footer_classes }}" role="contentinfo">
     <div class="grid-container usa-footer__return-to-top">
       <a href="#">{{ 'Return to top'|t }}</a>
     </div>
 
-    {% if display_footer_primary %}
-      <div class="usa-footer__primary-section">
-
-        <div class="usa-footer__primary-content">
-          {% if footer_style != 'medium' %}
-          <div class="grid-container">
-            <div class="grid-row grid-gap">
-              {% endif %}
-
-              {% if page.footer_menu %}
-                {{ page.footer_menu }}
-              {% endif %}
-
-              {% if footer_style != 'medium' %}
+      {% if page.footer %}
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+            <div class="grid-col-fill">
+              {{ page.footer }}
             </div>
           </div>
-          {% endif %}
-
-          {% if page.footer %}
-            <div class="grid-container">
-              <div class="grid-row grid-gap">
-                <div class="grid-col-fill">
-                  {{ page.footer }}
-                </div>
-              </div>
-            </div>
-          {% endif %}
         </div>
-
-      </div>
-    {% endif %}
+      {% endif %}
 
   </footer>
 {% endblock %}
+{# end footer #}
