@@ -18,7 +18,7 @@ regions:
   # breadcrumb: 'Breadcrumb'
   highlighted: 'Highlighted'
   # help: 'Help'
-  hero: 'Hero'
+  # hero: 'Hero'
   content: 'Content'
   footer_menu: 'Footer Menu'
   footer: 'Primary Footer'
