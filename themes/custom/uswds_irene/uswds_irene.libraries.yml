@@ -3,6 +3,8 @@ assets:
   css:
     theme:
       assets/css/uswds.css: {}
+    layout:
+      assets/css/layout.css: {}
   js:
     assets/js/uswds.js: {}
     # change to min.js for production

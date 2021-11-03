@@ -6058,10 +6058,11 @@ button.usa-combo-box__clear-input:focus{
   padding-bottom:1.25rem;
   padding-top:1.25rem;
   line-height:0.9;
+  float: left;
 }
 .usa-footer__return-to-top a{
   color:#005ea2;
-  text-decoration:underline;
+  /* text-decoration:underline; */
 }
 .usa-footer__return-to-top a:visited{
   color:#54278f;

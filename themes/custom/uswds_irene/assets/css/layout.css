@@ -17,19 +17,19 @@
   height: 150px;
 }
 
-.site-logo {
+/* .site-logo {
   float: left;
   padding-top: 35px;
-  /* padding-left: 20px; */
+  padding-left: 20px;
   margin-bottom: 20px;
   clear:both;
-}
+} */
 
-.site-logo img {
+/* .site-logo img {
   float: left;
   width: 144px;
   height: 90px;
-}
+} */
 
 .path-services .region-content {
   float: left;
