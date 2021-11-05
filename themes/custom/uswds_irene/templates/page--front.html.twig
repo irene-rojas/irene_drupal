@@ -109,15 +109,15 @@
       <a href="#">{{ 'Return to top'|t }}</a>
     </div>
 
-      {% if page.footer %}
-        <div class="grid-container">
-          <div class="grid-row grid-gap">
-            <div class="grid-col-fill">
-              {{ page.footer }}
-            </div>
+    {% if page.footer %}
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+          <div class="grid-col-fill">
+            {{ page.footer }}
           </div>
         </div>
-      {% endif %}
+      </div>
+    {% endif %}
 
   </footer>
 {% endblock %}
