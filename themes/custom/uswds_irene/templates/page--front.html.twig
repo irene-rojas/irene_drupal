@@ -102,23 +102,3 @@
 {% endblock %}
 {# end main #}
 
-{# start footer #}
-{% block footer %}
-  <footer class="{{ footer_classes }}" role="contentinfo">
-    <div class="grid-container usa-footer__return-to-top">
-      <a href="#">{{ 'Return to top'|t }}</a>
-    </div>
-
-    {% if page.footer %}
-      <div class="grid-container">
-        <div class="grid-row grid-gap">
-          <div class="grid-col-fill">
-            {{ page.footer }}
-          </div>
-        </div>
-      </div>
-    {% endif %}
-
-  </footer>
-{% endblock %}
-{# end footer #}
