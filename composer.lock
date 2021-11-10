@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "942920ba28ef31544ecc7cf377590de4",
+    "content-hash": "7ae0596c2da7df443a411b4200956989",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -506,16 +506,11 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core.git",
-                "reference": "c51e9d9e28c08e284ff57ca42504cfe0ec9522db"
-            },
+            "version": "9.2.8",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/c51e9d9e28c08e284ff57ca42504cfe0ec9522db",
-                "reference": "c51e9d9e28c08e284ff57ca42504cfe0ec9522db",
+                "url": "https://api.github.com/repos/drupal/core/zipball/b40ae04a0a8a8a0952e77da7545de5ee8fa40757",
+                "reference": "b40ae04a0a8a8a0952e77da7545de5ee8fa40757",
                 "shasum": ""
             },
             "require": {
@@ -759,16 +754,16 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Drupal is an open source content management platform powering millions of websites and applications."
+            "description": "Drupal is an open source content management platform powering millions of websites and applications.",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core.git",
+                "reference": "b40ae04a0a8a8a0952e77da7545de5ee8fa40757"
+            }
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-composer-scaffold.git",
-                "reference": "3c9efe8e154acc2cadb86b51733be55556677b0b"
-            },
+            "version": "9.2.8",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/3c9efe8e154acc2cadb86b51733be55556677b0b",
@@ -804,16 +799,16 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ]
+            ],
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-composer-scaffold.git",
+                "reference": "3c9efe8e154acc2cadb86b51733be55556677b0b"
+            }
         },
         {
             "name": "drupal/core-project-message",
-            "version": "9.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-project-message.git",
-                "reference": "812d6da43dd49cc210af62e80fa92189e68e565a"
-            },
+            "version": "9.2.8",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-project-message/zipball/812d6da43dd49cc210af62e80fa92189e68e565a",
@@ -840,20 +835,20 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ]
+            ],
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-project-message.git",
+                "reference": "812d6da43dd49cc210af62e80fa92189e68e565a"
+            }
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "e9bbd6d45dddc02157ea675b557c604feb31c80d"
-            },
+            "version": "9.2.8",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/e9bbd6d45dddc02157ea675b557c604feb31c80d",
-                "reference": "e9bbd6d45dddc02157ea675b557c604feb31c80d",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/c77ac58a8ef159065a7d28853e41f758a9cb057d",
+                "reference": "c77ac58a8ef159065a7d28853e41f758a9cb057d",
                 "shasum": ""
             },
             "require": {
@@ -862,7 +857,7 @@
                 "doctrine/annotations": "1.13.1",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.2.6",
+                "drupal/core": "9.2.8",
                 "egulias/email-validator": "2.1.25",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.4.1",
@@ -922,16 +917,16 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core."
+            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-recommended.git",
+                "reference": "c77ac58a8ef159065a7d28853e41f758a9cb057d"
+            }
         },
         {
             "name": "drupal/core-vendor-hardening",
-            "version": "9.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-vendor-hardening.git",
-                "reference": "f9eaafd58792fef38037979c2344a9216a93cc7e"
-            },
+            "version": "9.2.8",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-vendor-hardening/zipball/f9eaafd58792fef38037979c2344a9216a93cc7e",
@@ -958,7 +953,12 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ]
+            ],
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-vendor-hardening.git",
+                "reference": "f9eaafd58792fef38037979c2344a9216a93cc7e"
+            }
         },
         {
             "name": "egulias/email-validator",
@@ -1212,80 +1212,6 @@
                 "url"
             ],
             "time": "2021-04-26T09:17:50+00:00"
-        },
-        {
-            "name": "kint-php/kint",
-            "version": "3.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kint-php/kint.git",
-                "reference": "335ac1bcaf04d87df70d8aa51e8887ba2c6d203b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kint-php/kint/zipball/335ac1bcaf04d87df70d8aa51e8887ba2c6d203b",
-                "reference": "335ac1bcaf04d87df70d8aa51e8887ba2c6d203b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.6"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "phpunit/phpunit": "^4.0",
-                "seld/phar-utils": "^1.0",
-                "symfony/finder": "^2.0 || ^3.0 || ^4.0",
-                "vimeo/psalm": "^3.0"
-            },
-            "suggest": {
-                "ext-ctype": "Simple data type tests",
-                "ext-iconv": "Provides fallback detection for ambiguous legacy string encodings such as the Windows and ISO 8859 code pages",
-                "ext-mbstring": "Provides string encoding detection",
-                "kint-php/kint-js": "Provides a simplified dump to console.log()",
-                "kint-php/kint-twig": "Provides d() and s() functions in twig templates",
-                "symfony/polyfill-ctype": "Replacement for ext-ctype if missing",
-                "symfony/polyfill-iconv": "Replacement for ext-iconv if missing",
-                "symfony/polyfill-mbstring": "Replacement for ext-mbstring if missing"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "init.php"
-                ],
-                "psr-4": {
-                    "Kint\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jonathan Vollebregt",
-                    "homepage": "https://github.com/jnvsor"
-                },
-                {
-                    "name": "Rokas Šleinius",
-                    "homepage": "https://github.com/raveren"
-                },
-                {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/kint-php/kint/graphs/contributors"
-                }
-            ],
-            "description": "Kint - debugging tool for PHP developers",
-            "homepage": "https://kint-php.github.io/kint/",
-            "keywords": [
-                "debug",
-                "kint",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/kint-php/kint/issues",
-                "source": "https://github.com/kint-php/kint/tree/master"
-            },
-            "time": "2019-10-17T18:05:24+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -4697,5 +4623,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "1.1.0"
 }
