@@ -1,0 +1,18 @@
+assets:
+  version: VERSION
+  css:
+    theme:
+      assets/css/uswds.css: {}
+    layout:
+      assets/css/layout.css: {}
+  js:
+    assets/js/uswds.js: {}
+    # change to min.js for production
+
+uswds_custom:
+  version: VERSION
+  css:
+    theme:
+      css/uswds_base.css: {}
+  js:
+    js/uswds_base.js: {}
