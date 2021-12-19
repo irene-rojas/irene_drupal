@@ -5,7 +5,7 @@ description: 'Test theme which uses test_basetheme as the base theme.'
 base theme: classy
 package: Testing
 
-# Information added by Drupal.org packaging script on 2021-11-03
-version: '9.2.8'
+# Information added by Drupal.org packaging script on 2021-12-09
+version: '9.3.0'
 project: 'drupal'
-datestamp: 1635961278
+datestamp: 1639051328
